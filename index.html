@@ -1,0 +1,758 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aluguel de Empilhadeiras em SP e MG | ABC Empilhadeiras</title>
+<meta name="description" content="Locação de empilhadeiras revisadas, com manutenção preventiva inclusa e substituição em caso de falha. Atendimento em Campinas, Grande SP, Sul de Minas e BH.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Aluguel de Empilhadeiras em SP e MG | ABC Empilhadeiras">
+<meta property="og:description" content="Empilhadeiras revisadas, com manutenção preventiva inclusa no contrato e suporte técnico durante toda a locação.">
+<meta property="og:image" content="assets/img/galpao.webp">
+
+<!-- Google Tag Manager (mesmo contêiner do site abcempilhadeiras.com.br) -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NK3ZPKG6');</script>
+<!-- End Google Tag Manager -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --vermelho:#E30613;
+  --vermelho-escuro:#B62029;
+  --preto:#101010;
+  --grafite:#2D2926;
+  --cinza:#F3F3F3;
+  --areia:#ECE8E5;
+  --texto:#3d3a38;
+  --branco:#fff;
+  --raio:14px;
+  --sombra:0 10px 30px rgba(16,16,16,.08);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Montserrat',system-ui,sans-serif;color:var(--texto);background:var(--branco);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+.container{width:100%;max-width:1180px;margin:0 auto;padding:0 20px}
+h1,h2,h3{color:var(--preto);line-height:1.15;font-weight:800;letter-spacing:-.01em}
+h2{font-size:clamp(1.7rem,3.4vw,2.5rem)}
+h2 em{font-style:normal;color:var(--vermelho);display:block}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--vermelho)}
+.eyebrow::before{content:"";width:28px;height:3px;background:var(--vermelho)}
+.secao{padding:88px 0}
+.secao-titulo{max-width:720px;margin-bottom:48px}
+.secao-titulo p{margin-top:14px;font-size:1.05rem}
+
+/* Botões */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;cursor:pointer;font-family:inherit;font-weight:700;font-size:1rem;text-decoration:none;border-radius:8px;padding:16px 28px;transition:transform .15s,background .15s,box-shadow .15s}
+.btn-primario{background:var(--vermelho);color:var(--branco);box-shadow:0 8px 24px rgba(227,6,19,.32)}
+.btn-primario:hover{background:var(--vermelho-escuro);transform:translateY(-2px)}
+.btn-contorno{background:transparent;color:var(--branco);border:2px solid rgba(255,255,255,.35)}
+.btn-contorno:hover{border-color:var(--branco)}
+.btn svg{width:20px;height:20px;flex:none}
+
+/* Header */
+.header{position:fixed;top:0;left:0;right:0;z-index:50;background:transparent;transition:background .25s,box-shadow .25s}
+.header.rolou{background:rgba(16,16,16,.94);backdrop-filter:blur(8px);box-shadow:0 6px 20px rgba(0,0,0,.25)}
+.header .container{display:flex;align-items:center;justify-content:space-between;height:84px}
+.header img{height:52px;width:auto}
+.header .btn{padding:11px 20px;font-size:.9rem}
+
+/* Hero */
+.hero{position:relative;background:var(--preto);color:#d9d6d4;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 85% 30%,rgba(227,6,19,.38),transparent 55%);pointer-events:none}
+.hero::after{content:"";position:absolute;right:-60px;bottom:-60px;width:260px;height:260px;background:var(--vermelho);transform:rotate(45deg);opacity:.9}
+.hero .container{position:relative;z-index:1;display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;min-height:100vh;min-height:100svh;padding-top:100px;padding-bottom:36px}
+.hero h1{color:var(--branco);font-size:clamp(1.68rem,3.68vw,2.88rem);font-weight:900;margin:0 0 20px}
+.hero h1 span{color:var(--vermelho)}
+.hero .sub{font-size:1.08rem;max-width:560px}
+.hero ul{list-style:none;margin:22px 0 28px;display:grid;gap:10px}
+.hero li{display:flex;gap:12px;align-items:flex-start;font-weight:500;color:var(--branco)}
+.hero li svg{width:22px;height:22px;flex:none;color:var(--vermelho);margin-top:1px}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:14px}
+.hero-foto{position:relative;border-radius:20px;overflow:hidden;width:100%;height:calc(100svh - 150px);min-height:340px;max-height:620px;box-shadow:0 30px 60px rgba(0,0,0,.45)}
+.hero-foto img{width:100%;height:100%;object-fit:cover}
+
+/* Números */
+.numeros{background:var(--cinza);padding:44px 0}
+.numeros .container{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.numero{display:flex;align-items:center;gap:28px;padding:32px 36px 32px 60px;border-radius:10px;background:linear-gradient(90deg,#E30613 0%,#B3000C 100%);color:var(--branco)}
+.numero svg{width:52px;height:52px;flex:none;fill:#1D1D1B}
+.numero strong{display:block;font-size:clamp(1.8rem,2.6vw,2.3rem);font-weight:600;line-height:1.05}
+.numero span{display:block;font-size:1.15rem;font-weight:400}
+
+/* Por que alugar */
+.beneficios{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.beneficio{background:var(--cinza);border-radius:var(--raio);padding:30px 26px;border-top:4px solid var(--vermelho)}
+.beneficio .icone{width:52px;height:52px;border-radius:12px;background:var(--branco);display:grid;place-items:center;color:var(--vermelho);margin-bottom:18px}
+.beneficio .icone svg{width:26px;height:26px}
+.beneficio h3{font-size:1.08rem;margin-bottom:8px}
+.beneficio p{font-size:.95rem}
+
+/* Equipamentos */
+.equip-secao{background:var(--cinza)}
+.equipamentos{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+@media (max-width:1080px){.equipamentos{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.equipamentos{grid-template-columns:1fr}}
+.equip{background:var(--branco);border-radius:var(--raio);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--sombra);transition:transform .2s}
+.equip:hover{transform:translateY(-4px)}
+.equip figure{height:220px;display:grid;place-items:center;padding:18px;background:var(--branco);border-bottom:1px solid #f0f0f0}
+.equip figure img{max-height:184px;width:auto;object-fit:contain}
+.equip-corpo{padding:22px 22px 24px;display:flex;flex-direction:column;flex:1}
+.equip h3{font-size:1.1rem;margin-bottom:6px}
+.equip .tag{display:inline-block;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--vermelho);margin-bottom:10px}
+.equip p{font-size:.93rem;flex:1;margin-bottom:18px}
+.equip .btn{width:100%;padding:13px 18px;font-size:.92rem}
+.equip-ajuda{grid-column:1/-1;background:var(--preto);color:#d9d6d4;border-radius:var(--raio);padding:32px 36px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;position:relative;overflow:hidden}
+.equip-ajuda::after{content:"";position:absolute;left:-46px;top:-46px;width:80px;height:80px;background:var(--vermelho);transform:rotate(45deg)}
+.equip-ajuda>*{position:relative;z-index:1}
+.equip-ajuda .btn{padding:15px 26px}
+.equip-ajuda h3{color:var(--branco);font-size:1.3rem;margin-bottom:6px;}
+@media (max-width:620px){.equip-ajuda{padding:28px 22px}.equip-ajuda .btn{width:100%}}
+
+/* Setores */
+.setores-secao{background:var(--areia)}
+.setores-secao .container{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.setores{display:flex;flex-wrap:wrap;gap:12px}
+.setores li{list-style:none;background:var(--branco);border-radius:999px;padding:12px 20px;font-weight:600;font-size:.95rem;color:var(--preto);display:flex;align-items:center;gap:10px}
+.setores li::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--vermelho)}
+
+/* Faixa CTA */
+.faixa{background:var(--preto);color:#d9d6d4;position:relative;overflow:hidden}
+.faixa::before{content:"";position:absolute;left:-80px;top:-80px;width:220px;height:220px;background:var(--vermelho);transform:rotate(45deg)}
+.faixa .container{position:relative;display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;padding-top:64px;padding-bottom:64px}
+.faixa h2{color:var(--branco);max-width:640px}
+.faixa h2 em{color:var(--vermelho)}
+.faixa p{margin-top:10px;max-width:600px}
+
+/* Rodapé */
+.rodape{background:#0a0a0a;color:#a8a4a1;padding:60px 0 28px;font-size:.92rem}
+.rodape-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:40px;margin-bottom:40px}
+.rodape img{height:44px;width:auto;margin-bottom:16px}
+.rodape h4{color:var(--branco);font-size:.95rem;margin-bottom:12px}
+.rodape a{text-decoration:none}
+.rodape a:hover{color:var(--branco)}
+.redes{display:flex;gap:10px;margin-top:16px}
+.redes a{width:38px;height:38px;border-radius:8px;background:#1d1d1d;display:grid;place-items:center}
+.redes a:hover{background:var(--vermelho)}
+.redes svg{width:18px;height:18px;fill:currentColor}
+.rodape-base{border-top:1px solid #222;padding-top:22px;font-size:.82rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+/* Botão flutuante (abre o pop-up, nunca o WhatsApp direto) */
+.flutuante{position:fixed;right:20px;bottom:20px;z-index:60;width:60px;height:60px;border-radius:50%;background:#25D366;color:var(--branco);border:0;cursor:pointer;display:grid;place-items:center;box-shadow:0 10px 26px rgba(0,0,0,.25);transition:transform .15s}
+.flutuante:hover{transform:scale(1.07)}
+.flutuante svg{width:32px;height:32px}
+
+/* Modal */
+.modal{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(10,10,10,.72);backdrop-filter:blur(3px)}
+.modal.aberto{display:flex}
+.modal-caixa{position:relative;background:var(--branco);width:100%;max-width:520px;max-height:calc(100vh - 32px);overflow-y:auto;border-radius:18px;padding:34px 30px 28px;animation:entra .22s ease-out}
+@keyframes entra{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.modal-fechar{position:absolute;top:12px;right:12px;width:38px;height:38px;border:0;border-radius:50%;background:var(--cinza);cursor:pointer;font-size:1.4rem;line-height:1;color:var(--preto)}
+.modal h2{font-size:1.5rem;margin-bottom:6px;padding-right:30px}
+.modal .modal-sub{font-size:.95rem;margin-bottom:22px}
+.campos{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.campo{display:flex;flex-direction:column;gap:6px}
+.campo.cheio{grid-column:1/-1}
+.campo label{font-size:.82rem;font-weight:700;color:var(--preto)}
+.campo input,.campo select{font-family:inherit;font-size:1rem;padding:13px 14px;border:1.5px solid #dcd8d5;border-radius:9px;background:var(--branco);color:var(--preto);width:100%}
+.campo input:focus,.campo select:focus{outline:none;border-color:var(--vermelho);box-shadow:0 0 0 3px rgba(227,6,19,.12)}
+.campo.erro input,.campo.erro select{border-color:var(--vermelho)}
+.campo .msg-erro{display:none;font-size:.78rem;color:var(--vermelho);font-weight:600}
+.campo.erro .msg-erro{display:block}
+.form-enviar{width:100%;margin-top:20px;background:#25D366;box-shadow:0 8px 24px rgba(37,211,102,.3)}
+.form-enviar:hover{background:#1ebe5a}
+.form-enviar[disabled]{opacity:.7;cursor:wait;transform:none}
+.form-nota{font-size:.76rem;color:#7a7673;margin-top:12px;text-align:center}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+/* Responsivo */
+@media (max-width:980px){
+  .hero .container{grid-template-columns:1fr;gap:40px;min-height:0;padding-top:128px;padding-bottom:64px}
+  .hero-foto{max-width:420px;height:auto;min-height:0;aspect-ratio:700/914;margin:0 auto}
+  .beneficios{grid-template-columns:repeat(2,1fr)}
+  .setores-secao .container{grid-template-columns:1fr;gap:32px}
+  .rodape-grid{grid-template-columns:1fr 1fr}
+  .numeros .container{gap:18px}
+  .numero{padding:26px 22px;gap:18px}
+}
+@media (max-width:620px){
+  .container{padding:0 16px}
+  .secao{padding:64px 0}
+  .header .container{height:72px}
+  .header img{height:42px}
+  .header .btn{padding:10px 14px;font-size:.82rem}
+  .hero-ctas .btn{width:100%}
+  .hero::after{width:150px;height:150px;right:-50px;bottom:-50px}
+  .numeros{padding:32px 0}
+  .numeros .container{grid-template-columns:1fr;gap:14px}
+  .numero{padding:22px 24px;gap:20px}
+  .numero svg{width:42px;height:42px}
+  .beneficios{grid-template-columns:1fr}
+  .faixa .btn{width:100%}
+  .rodape-grid{grid-template-columns:1fr}
+  .campos{grid-template-columns:1fr}
+  .modal-caixa{padding:30px 20px 22px}
+  .flutuante{right:16px;bottom:16px}
+}
+/* Ajustes finos para celular */
+@media (max-width:620px){
+  /* Hero */
+  .hero .container{padding-top:104px;padding-bottom:48px;gap:28px}
+  .hero h1{font-size:clamp(1.85rem,8vw,2.2rem);margin-bottom:14px}
+  .hero .sub{font-size:1rem}
+  .hero ul{margin:18px 0 24px;gap:8px}
+  .hero li{font-size:.95rem}
+  .hero-ctas{gap:10px}
+  .hero-ctas .btn{padding:15px 16px;font-size:.95rem}
+  .hero-foto{max-width:none;aspect-ratio:700/914}
+
+  /* Régua de números: 3 colunas compactas */
+  .numeros{padding:20px 0}
+  .numeros .container{grid-template-columns:repeat(3,1fr);gap:8px}
+  .numero{flex-direction:column;justify-content:center;text-align:center;gap:8px;padding:16px 6px}
+  .numero svg{width:28px;height:28px}
+  .numero strong{font-size:1.35rem}
+  .numero span{font-size:.74rem;line-height:1.25}
+
+  /* Títulos de seção */
+  .secao{padding:56px 0}
+  .secao-titulo{margin-bottom:28px}
+  .secao-titulo p{font-size:.98rem}
+
+  /* Vantagens: ícone ao lado do título */
+  .beneficios{gap:12px}
+  .beneficio{display:grid;grid-template-columns:44px 1fr;column-gap:14px;padding:20px 18px;border-top-width:3px}
+  .beneficio .icone{width:44px;height:44px;margin:0;grid-row:span 2}
+  .beneficio .icone svg{width:22px;height:22px}
+  .beneficio h3{font-size:1rem;margin-bottom:4px}
+  .beneficio p{font-size:.9rem}
+
+  /* Equipamentos: card horizontal */
+  .equipamentos{gap:12px}
+  .equip{display:grid;grid-template-columns:112px 1fr}
+  .equip:hover{transform:none}
+  .equip figure{height:auto;min-height:150px;padding:10px;border-bottom:0;border-right:1px solid #f0f0f0}
+  .equip figure img{max-height:130px}
+  .equip-corpo{padding:16px 16px 16px}
+  .equip .tag{font-size:.66rem;margin-bottom:4px}
+  .equip h3{font-size:.98rem;margin-bottom:4px}
+  .equip p{font-size:.86rem;margin-bottom:12px}
+  .equip .btn{padding:11px 12px;font-size:.86rem}
+
+  /* Setores */
+  .setores{gap:8px}
+  .setores li{padding:9px 14px;font-size:.86rem}
+
+  /* Faixa final: detalhe vermelho fora do texto */
+  .faixa::before{left:auto;right:-70px;top:auto;bottom:-70px;width:130px;height:130px}
+  .faixa .container{padding-top:52px;padding-bottom:88px;gap:24px}
+
+  /* Rodapé com espaço para o botão flutuante */
+  .rodape{padding:48px 0 96px}
+  .rodape-grid{gap:28px;margin-bottom:28px}
+
+  /* Pop-up ocupa a tela de baixo para cima */
+  .modal{padding:0;align-items:flex-end}
+  .modal-caixa{max-width:none;max-height:92svh;border-radius:18px 18px 0 0;padding:26px 18px 20px}
+  .modal h2{font-size:1.3rem}
+  .campos{gap:12px}
+  .campo input,.campo select{font-size:16px;padding:12px}
+}
+@media (max-width:360px){
+  .numero strong{font-size:1.15rem}
+  .numero span{font-size:.68rem}
+  .equip{grid-template-columns:96px 1fr}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NK3ZPKG6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Ícones reutilizáveis -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-whats" viewBox="0 0 32 32"><path fill="currentColor" d="M16 3C8.8 3 3 8.7 3 15.8c0 2.3.6 4.5 1.8 6.4L3 29l7-1.8c1.8 1 3.9 1.5 6 1.5 7.2 0 13-5.7 13-12.8S23.2 3 16 3Zm0 23.4c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4a10.4 10.4 0 0 1-1.6-5.6C5.3 10 10.1 5.3 16 5.3S26.7 10 26.7 15.8 21.9 26.4 16 26.4Zm5.9-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.8.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.3 1.4 3.5c.2.2 2.4 3.6 5.8 5 2.2.9 3 1 4.1.8.7-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4Z"/></symbol>
+</svg>
+
+<header class="header">
+  <div class="container">
+    <img src="assets/img/logo-branco.svg" alt="ABC Empilhadeiras" width="104" height="39">
+    <button class="btn btn-primario" type="button" data-abrir-lead data-origem="header">Pedir orçamento</button>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div>
+        <h1>Aluguel de <span>empilhadeiras</span> para indústria e logística</h1>
+        <p class="sub">Empilhadeiras revisadas, com manutenção preventiva inclusa no contrato e suporte técnico durante toda a locação.</p>
+        <ul>
+          <li><svg><use href="#i-check"/></svg>Contrabalançadas, retráteis, patoladas, manuais e semi-elétricas</li>
+          <li><svg><use href="#i-check"/></svg>Substituição do equipamento em caso de falha</li>
+          <li><svg><use href="#i-check"/></svg>Atendimento em Campinas, Grande SP, Sul de Minas e BH</li>
+        </ul>
+        <div class="hero-ctas">
+          <button class="btn btn-primario" type="button" data-abrir-lead data-origem="hero">
+            <svg><use href="#i-whats"/></svg>Pedir orçamento pelo WhatsApp
+          </button>
+          <a class="btn btn-contorno" href="#equipamentos">Ver modelos</a>
+        </div>
+      </div>
+      <div class="hero-foto">
+        <img src="assets/img/galpao.webp" alt="Empilhadeira ABC em galpão logístico" width="700" height="914" fetchpriority="high">
+      </div>
+    </div>
+  </section>
+
+  <!-- NÚMEROS -->
+  <section class="numeros" aria-label="ABC em números">
+    <div class="container">
+      <div class="numero">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm7.5-.2a3.4 3.4 0 1 0-1.7-6.4 5.9 5.9 0 0 1 0 6.1c.5.2 1.1.3 1.7.3ZM9 13c-3.9 0-7 2-7 4.6V21h14v-3.4C16 15 12.9 13 9 13Zm8.4.2c1.4 1.1 2.6 2.6 2.6 4.4V21h3v-3.4c0-2.2-2.4-3.9-5.6-4.4Z"/></svg>
+        <div><strong>+3.000</strong><span>clientes atendidos</span></div>
+      </div>
+      <div class="numero">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 3V2H6v1H2v3c0 2.6 1.9 4.7 4.4 5 .8 1.9 2.5 3.3 4.6 3.7V18H8v2H6v2h12v-2h-2v-2h-3v-3.3c2.1-.4 3.8-1.8 4.6-3.7 2.5-.3 4.4-2.4 4.4-5V3h-4ZM4 6V5h2v4c-1.2-.4-2-1.6-2-3Zm16 0c0 1.4-.8 2.6-2 3V5h2v1Z"/></svg>
+        <div><strong>+50</strong><span>anos de mercado</span></div>
+      </div>
+      <div class="numero">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4v13h3v2h-5V4h2ZM6 5h5.2c.5 0 1 .3 1.2.8L15 12h1v6.2a3 3 0 0 1-5.8.8H8.8A3 3 0 1 1 3 18v-4.5C3 12.7 3.7 12 4.5 12H6V5Zm2 2v5h4.8l-2.1-5H8Zm-2 9.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm7 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/></svg>
+        <div><strong>+1.500</strong><span>equipamentos</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUE ALUGAR -->
+  <section class="secao">
+    <div class="container">
+      <div class="secao-titulo">
+        <span class="eyebrow">Vantagens da locação</span>
+        <h2>Por que alugar <em>em vez de comprar</em></h2>
+        <p>A locação evita capital imobilizado e gastos inesperados com manutenção, além de permitir ajustar a frota conforme a demanda da operação.</p>
+      </div>
+      <div class="beneficios">
+        <div class="beneficio">
+          <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path d="M6 12h.01M18 12h.01"/></svg></div>
+          <h3>Sem capital imobilizado</h3>
+          <p>A empresa não precisa investir na compra do equipamento. O valor da locação entra no orçamento da operação.</p>
+        </div>
+        <div class="beneficio">
+          <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4 2.5-2.5Z"/></svg></div>
+          <h3>Manutenção inclusa</h3>
+          <p>Cada empilhadeira é revisada antes da entrega, e a manutenção preventiva está inclusa no contrato.</p>
+        </div>
+        <div class="beneficio">
+          <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16"/><path d="M3 21v-5h5"/></svg></div>
+          <h3>Substituição em caso de falha</h3>
+          <p>Se o equipamento apresentar falha, a ABC faz a substituição para que a operação não fique parada.</p>
+        </div>
+        <div class="beneficio">
+          <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg></div>
+          <h3>Frota conforme a demanda</h3>
+          <p>Modelos com pronta entrega para demandas urgentes, ampliações temporárias e picos de produção.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUIPAMENTOS -->
+  <section class="secao equip-secao" id="equipamentos">
+    <div class="container">
+      <div class="secao-titulo">
+        <span class="eyebrow">Equipamentos</span>
+        <h2>Modelos disponíveis <em>para locação</em></h2>
+        <p>Atuamos com equipamentos multimarcas e somos distribuidores exclusivos da Paletrans. Nossa equipe comercial auxilia na escolha do modelo adequado para cada aplicação.</p>
+      </div>
+      <div class="equipamentos">
+        <article class="equip">
+          <figure><img src="assets/img/contrabalancada.png" alt="Empilhadeira contrabalançada PC25" loading="lazy" width="445" height="322"></figure>
+          <div class="equip-corpo">
+            <span class="tag">Pátio e docas</span>
+            <h3>Empilhadeira contrabalançada</h3>
+            <p>Indicada para carga e descarga de caminhões, docas e áreas externas.</p>
+            <button class="btn btn-primario" type="button" data-abrir-lead data-equipamento="Empilhadeira contrabalançada" data-origem="card">Pedir orçamento</button>
+          </div>
+        </article>
+        <article class="equip">
+          <figure><img src="assets/img/retratil.png" alt="Empilhadeira retrátil PR20" loading="lazy" width="402" height="439"></figure>
+          <div class="equip-corpo">
+            <span class="tag">Corredores estreitos</span>
+            <h3>Empilhadeira retrátil</h3>
+            <p>Indicada para corredores estreitos e porta-paletes altos, com modelos de até 11,6 m de elevação.</p>
+            <button class="btn btn-primario" type="button" data-abrir-lead data-equipamento="Empilhadeira retrátil" data-origem="card">Pedir orçamento</button>
+          </div>
+        </article>
+        <article class="equip">
+          <figure><img src="assets/img/patolada.png" alt="Empilhadeira patolada PT 16" loading="lazy" width="403" height="598"></figure>
+          <div class="equip-corpo">
+            <span class="tag">Armazenagem</span>
+            <h3>Empilhadeira patolada</h3>
+            <p>Modelo elétrico e compacto, indicado para armazenagem em porta-paletes com operador a pé.</p>
+            <button class="btn btn-primario" type="button" data-abrir-lead data-equipamento="Empilhadeira patolada" data-origem="card">Pedir orçamento</button>
+          </div>
+        </article>
+        <article class="equip">
+          <figure><img src="assets/img/semi-eletrica.png" alt="Empilhadeira semi-elétrica PE" loading="lazy" width="396" height="523"></figure>
+          <div class="equip-corpo">
+            <span class="tag">Operações leves</span>
+            <h3>Empilhadeira manual e semi-elétrica</h3>
+            <p>Indicada para estoques menores e operações com baixa movimentação diária.</p>
+            <button class="btn btn-primario" type="button" data-abrir-lead data-equipamento="Empilhadeira manual ou semi-elétrica" data-origem="card">Pedir orçamento</button>
+          </div>
+        </article>
+        <div class="equip-ajuda">
+          <div>
+            <h3>Não sabe qual modelo escolher?</h3>
+            <p>Nossa equipe comercial avalia a aplicação e indica o equipamento adequado.</p>
+          </div>
+          <button class="btn btn-primario" type="button" data-abrir-lead data-equipamento="Preciso de ajuda para escolher" data-origem="ajuda">Pedir indicação</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SETORES -->
+  <section class="secao setores-secao">
+    <div class="container">
+      <div>
+        <span class="eyebrow">Setores atendidos</span>
+        <h2 style="margin-top:14px">Indústria, logística <em>e comércio</em></h2>
+        <p style="margin-top:14px">A ABC atende empresas de diferentes segmentos, com equipamentos para cada tipo de carga e aplicação.</p>
+      </div>
+      <ul class="setores">
+        <li>Armazéns logísticos</li>
+        <li>Alimentício</li>
+        <li>Bebidas</li>
+        <li>Químico</li>
+        <li>Farmacêutico</li>
+        <li>Varejo</li>
+        <li>Automotivo</li>
+        <li>Metalúrgico</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FAIXA CTA -->
+  <section class="faixa">
+    <div class="container">
+      <div>
+        <h2>Solicite um orçamento <em>de locação</em></h2>
+        <p>Preencha o formulário e fale com a equipe comercial da ABC pelo WhatsApp. Retorno em até 2 horas úteis, sem compromisso.</p>
+      </div>
+      <button class="btn btn-primario" type="button" data-abrir-lead data-origem="faixa">
+        <svg><use href="#i-whats"/></svg>Pedir orçamento agora
+      </button>
+    </div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="container">
+    <div class="rodape-grid">
+      <div>
+        <img src="assets/img/logo-branco.svg" alt="ABC Empilhadeiras" width="104" height="39">
+        <p>Locação, venda, assistência técnica e peças de reposição para empilhadeiras.</p>
+        <div class="redes">
+          <a href="https://www.instagram.com/abcempilhadeiras/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4ZM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4ZM21.9 7.1c-.1-1.6-.4-3-1.6-4.2-1.2-1.2-2.6-1.5-4.2-1.6C14.5 1.2 9.5 1.2 7.9 1.3c-1.6.1-3 .4-4.2 1.6C2.5 4.1 2.2 5.5 2.1 7.1 2 8.7 2 15.3 2.1 16.9c.1 1.6.4 3 1.6 4.2 1.2 1.2 2.6 1.5 4.2 1.6 1.6.1 6.6.1 8.2 0 1.6-.1 3-.4 4.2-1.6 1.2-1.2 1.5-2.6 1.6-4.2.1-1.6.1-8.2 0-9.8ZM19.8 19c-.4.9-1 1.5-1.9 1.9-1.3.5-4.4.4-5.9.4s-4.6.1-5.9-.4c-.9-.4-1.5-1-1.9-1.9-.5-1.3-.4-4.4-.4-5.9s-.1-4.6.4-5.9c.4-.9 1-1.5 1.9-1.9 1.3-.5 4.4-.4 5.9-.4s4.6-.1 5.9.4c.9.4 1.5 1 1.9 1.9.5 1.3.4 4.4.4 5.9s.1 4.6-.4 5.9Z"/></svg></a>
+          <a href="https://www.facebook.com/abcempilhadeiras" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v9h4v-9h3l.5-4h-3.5V8.8c0-.5.3-.8.5-.8Z"/></svg></a>
+          <a href="https://www.linkedin.com/company/abc-empilhadeiras-ltda-me/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5ZM3 9.5h4V21H3V9.5Zm7 0h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4V9.5Z"/></svg></a>
+          <a href="https://www.youtube.com/channel/UCS9u_0ZPFq1JtCZgSqkpYzQ" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1c.4-1.6.5-4.8.5-4.8s0-3.2-.5-4.8ZM9.8 15V9l5.8 3-5.8 3Z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Unidade São Paulo</h4>
+        <p>Rua Mario Junqueira da Silva, 560<br>Jardim Eulina, Campinas/SP<br>CEP 13063-000</p>
+      </div>
+      <div>
+        <h4>Unidade Minas Gerais</h4>
+        <p>Av. Adutora Várzea das Flores, 11755<br>Petrolândia, Contagem/MG<br>CEP 32040-025</p>
+      </div>
+    </div>
+    <div class="rodape-base">
+      <span>© <span id="ano">2026</span> ABC Empilhadeiras · CNPJ 07.179.544/0001-01</span>
+      <a href="https://abcempilhadeiras.com.br/" target="_blank" rel="noopener">abcempilhadeiras.com.br</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Botão flutuante: abre o formulário antes do WhatsApp -->
+<button class="flutuante" type="button" data-abrir-lead data-origem="flutuante" aria-label="Pedir orçamento pelo WhatsApp">
+  <svg><use href="#i-whats"/></svg>
+</button>
+
+<!-- POP-UP DE CAPTAÇÃO -->
+<div class="modal" id="modal-lead" role="dialog" aria-modal="true" aria-labelledby="modal-titulo" aria-hidden="true">
+  <div class="modal-caixa">
+    <button class="modal-fechar" type="button" data-fechar-lead aria-label="Fechar">×</button>
+    <h2 id="modal-titulo">Orçamento pelo WhatsApp</h2>
+    <p class="modal-sub">Preencha os dados abaixo e continue o atendimento pelo WhatsApp com a equipe comercial da ABC.</p>
+    <form id="form-lead" novalidate>
+      <div class="campos">
+        <div class="campo cheio">
+          <label for="f-nome">Nome *</label>
+          <input id="f-nome" name="nome" type="text" autocomplete="name" required>
+          <span class="msg-erro">Informe seu nome.</span>
+        </div>
+        <div class="campo cheio">
+          <label for="f-empresa">Empresa *</label>
+          <input id="f-empresa" name="empresa" type="text" autocomplete="organization" required>
+          <span class="msg-erro">Informe a empresa.</span>
+        </div>
+        <div class="campo">
+          <label for="f-telefone">WhatsApp *</label>
+          <input id="f-telefone" name="telefone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(00) 00000-0000" required>
+          <span class="msg-erro">Informe um telefone válido.</span>
+        </div>
+        <div class="campo">
+          <label for="f-email">E-mail *</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required>
+          <span class="msg-erro">Informe um e-mail válido.</span>
+        </div>
+        <div class="campo cheio">
+          <label for="f-cidade">Cidade/UF *</label>
+          <input id="f-cidade" name="cidade" type="text" autocomplete="address-level2" placeholder="Ex.: Campinas/SP" required>
+          <span class="msg-erro">Informe a cidade.</span>
+        </div>
+        <div class="campo cheio">
+          <label for="f-equipamento">Equipamento de interesse *</label>
+          <select id="f-equipamento" name="equipamento" required>
+            <option value="">Selecione</option>
+            <option>Empilhadeira contrabalançada</option>
+            <option>Empilhadeira retrátil</option>
+            <option>Empilhadeira patolada</option>
+            <option>Empilhadeira manual ou semi-elétrica</option>
+            <option>Preciso de ajuda para escolher</option>
+          </select>
+          <span class="msg-erro">Selecione uma opção.</span>
+        </div>
+        <div class="campo">
+          <label for="f-quantidade">Quantidade *</label>
+          <select id="f-quantidade" name="quantidade" required>
+            <option value="">Selecione</option>
+            <option>1 equipamento</option>
+            <option>2 a 5 equipamentos</option>
+            <option>6 a 10 equipamentos</option>
+            <option>Mais de 10 equipamentos</option>
+          </select>
+          <span class="msg-erro">Selecione uma opção.</span>
+        </div>
+        <div class="campo">
+          <label for="f-periodo">Período *</label>
+          <select id="f-periodo" name="periodo" required>
+            <option value="">Selecione</option>
+            <option>Curto prazo (até 1 mês)</option>
+            <option>1 a 6 meses</option>
+            <option>Mais de 6 meses</option>
+            <option>Ainda não sei</option>
+          </select>
+          <span class="msg-erro">Selecione uma opção.</span>
+        </div>
+      </div>
+
+      <!-- Anti-spam (honeypot) -->
+      <div class="hp" aria-hidden="true"><label>Não preencha<input type="text" name="site" tabindex="-1" autocomplete="off"></label></div>
+
+      <!-- Rastreamento -->
+      <input type="hidden" name="utm_source">
+      <input type="hidden" name="utm_medium">
+      <input type="hidden" name="utm_campaign">
+      <input type="hidden" name="utm_term">
+      <input type="hidden" name="utm_content">
+      <input type="hidden" name="gclid">
+      <input type="hidden" name="fbclid">
+      <input type="hidden" name="origem_cta">
+
+      <button class="btn btn-primario form-enviar" type="submit">
+        <svg><use href="#i-whats"/></svg><span>Enviar e abrir o WhatsApp</span>
+      </button>
+      <p class="form-nota">Seus dados serão usados somente para o retorno deste orçamento.</p>
+    </form>
+  </div>
+</div>
+
+<script>
+/* ===== CONFIGURAÇÃO ===== */
+var CONFIG = {
+  whatsapp: '551932011000',
+  /* HubSpot: preencha os dois valores para ativar o envio.
+     Crie no HubSpot um formulário com os campos internos:
+     firstname, company, phone, email, city e message.
+     Os campos de UTM só são enviados se existirem como propriedades no HubSpot. */
+  hubspot: {
+    portalId: '',
+    formGuid: ''
+  }
+};
+
+(function () {
+  var modal = document.getElementById('modal-lead');
+  var form = document.getElementById('form-lead');
+  var btnEnviar = form.querySelector('.form-enviar');
+  var ultimoFoco = null;
+
+  /* ----- UTMs e click IDs (guardados na sessão) ----- */
+  var chavesRastreio = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid','fbclid'];
+  var params = new URLSearchParams(location.search);
+  chavesRastreio.forEach(function (k) {
+    var v = params.get(k);
+    try {
+      if (v) sessionStorage.setItem('abc_' + k, v);
+      v = v || sessionStorage.getItem('abc_' + k) || '';
+    } catch (e) { v = v || ''; }
+    form.elements[k].value = v;
+  });
+
+  /* ----- Abrir e fechar o pop-up ----- */
+  function abrir(gatilho) {
+    ultimoFoco = gatilho;
+    var equip = gatilho && gatilho.getAttribute('data-equipamento');
+    if (equip) form.elements.equipamento.value = equip;
+    form.elements.origem_cta.value = (gatilho && gatilho.getAttribute('data-origem')) || '';
+    modal.classList.add('aberto');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    setTimeout(function () { form.elements.nome.focus(); }, 50);
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({ event: 'lead_form_open', cta_origem: form.elements.origem_cta.value, equipamento: equip || '' });
+  }
+  function fechar() {
+    modal.classList.remove('aberto');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    if (ultimoFoco) ultimoFoco.focus();
+  }
+  document.querySelectorAll('[data-abrir-lead]').forEach(function (el) {
+    el.addEventListener('click', function (e) { e.preventDefault(); abrir(el); });
+  });
+  modal.querySelector('[data-fechar-lead]').addEventListener('click', fechar);
+  modal.addEventListener('click', function (e) { if (e.target === modal) fechar(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && modal.classList.contains('aberto')) fechar(); });
+
+  /* ----- Máscara de telefone BR ----- */
+  var tel = form.elements.telefone;
+  tel.addEventListener('input', function () {
+    var d = tel.value.replace(/\D/g, '').slice(0, 11);
+    if (d.length > 10) tel.value = d.replace(/(\d{2})(\d{5})(\d{0,4})/, '($1) $2-$3');
+    else if (d.length > 6) tel.value = d.replace(/(\d{2})(\d{4})(\d{0,4})/, '($1) $2-$3');
+    else if (d.length > 2) tel.value = d.replace(/(\d{2})(\d{0,5})/, '($1) $2');
+    else tel.value = d;
+  });
+
+  /* ----- Validação ----- */
+  function valido(campo) {
+    var v = campo.value.trim();
+    if (!v) return false;
+    if (campo.name === 'email') return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v);
+    if (campo.name === 'telefone') return v.replace(/\D/g, '').length >= 10;
+    return true;
+  }
+  function validar() {
+    var ok = true, primeiro = null;
+    form.querySelectorAll('[required]').forEach(function (c) {
+      var wrap = c.closest('.campo');
+      var bom = valido(c);
+      wrap.classList.toggle('erro', !bom);
+      if (!bom) { ok = false; primeiro = primeiro || c; }
+    });
+    if (primeiro) primeiro.focus();
+    return ok;
+  }
+  form.querySelectorAll('[required]').forEach(function (c) {
+    c.addEventListener('input', function () { if (valido(c)) c.closest('.campo').classList.remove('erro'); });
+    c.addEventListener('change', function () { if (valido(c)) c.closest('.campo').classList.remove('erro'); });
+  });
+
+  /* ----- HubSpot (Forms API v3, sem token) ----- */
+  function lerCookie(nome) {
+    var m = document.cookie.match(new RegExp('(?:^|; )' + nome + '=([^;]*)'));
+    return m ? decodeURIComponent(m[1]) : '';
+  }
+  function enviarHubSpot(d) {
+    if (!CONFIG.hubspot.portalId || !CONFIG.hubspot.formGuid) return Promise.resolve();
+    var url = 'https://api.hsforms.com/submissions/v3/integration/submit/' + CONFIG.hubspot.portalId + '/' + CONFIG.hubspot.formGuid;
+    var corpo = {
+      fields: [
+        { name: 'firstname', value: d.nome },
+        { name: 'company', value: d.empresa },
+        { name: 'phone', value: d.telefone },
+        { name: 'email', value: d.email },
+        { name: 'city', value: d.cidade },
+        { name: 'message', value: 'Locação: ' + d.equipamento + ' | Quantidade: ' + d.quantidade + ' | Período: ' + d.periodo +
+          ' | Origem: ' + (d.utm_source || 'direto') + '/' + (d.utm_medium || '-') + ' | Campanha: ' + (d.utm_campaign || '-') }
+      ],
+      context: { pageUri: location.href, pageName: document.title }
+    };
+    var hutk = lerCookie('hubspotutk');
+    if (hutk) corpo.context.hutk = hutk;
+    var envio = fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(corpo), keepalive: true })
+      .catch(function () {});
+    /* Nunca segura o lead por mais de 2,5 s */
+    return Promise.race([envio, new Promise(function (r) { setTimeout(r, 2500); })]);
+  }
+
+  /* ----- Envio ----- */
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (form.elements.site.value) return; /* bot */
+    if (!validar()) return;
+
+    var d = {};
+    Array.prototype.forEach.call(form.elements, function (c) { if (c.name) d[c.name] = c.value.trim(); });
+
+    btnEnviar.disabled = true;
+    btnEnviar.querySelector('span').textContent = 'Enviando...';
+
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      event: 'generate_lead',
+      form_name: 'locacao_empilhadeira',
+      equipamento: d.equipamento,
+      quantidade: d.quantidade,
+      periodo: d.periodo,
+      cta_origem: d.origem_cta,
+      user_data: { email: d.email, phone_number: '+55' + d.telefone.replace(/\D/g, '') }
+    });
+
+    var msg = '*ORÇAMENTO DE LOCAÇÃO · ABC EMPILHADEIRAS*\n\n' +
+      '*Nome:* ' + d.nome + '\n' +
+      '*Empresa:* ' + d.empresa + '\n' +
+      '*Telefone:* ' + d.telefone + '\n' +
+      '*E-mail:* ' + d.email + '\n' +
+      '*Cidade:* ' + d.cidade + '\n' +
+      '*Equipamento:* ' + d.equipamento + '\n' +
+      '*Quantidade:* ' + d.quantidade + '\n' +
+      '*Período:* ' + d.periodo + '\n\n' +
+      'Gostaria de um orçamento de locação.';
+    var urlWhats = 'https://api.whatsapp.com/send?phone=' + CONFIG.whatsapp + '&text=' + encodeURIComponent(msg);
+
+    enviarHubSpot(d).then(function () {
+      /* pequena folga para o GTM disparar as tags antes de sair da página */
+      setTimeout(function () { window.location.href = urlWhats; }, 400);
+    });
+  });
+
+  document.getElementById('ano').textContent = new Date().getFullYear();
+
+  /* Cabeçalho transparente sobre o hero; ganha fundo ao rolar */
+  var header = document.querySelector('.header');
+  function marcarRolagem() { header.classList.toggle('rolou', window.scrollY > 40); }
+  window.addEventListener('scroll', marcarRolagem, { passive: true });
+  marcarRolagem();
+})();
+</script>
+</body>
+</html>
