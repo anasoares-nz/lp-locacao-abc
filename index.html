@@ -110,12 +110,24 @@ h2 em{font-style:normal;color:var(--vermelho);display:block}
 .equip .tag{display:inline-block;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--vermelho);margin-bottom:10px}
 .equip p{font-size:.93rem;flex:1;margin-bottom:18px}
 .equip .btn{width:100%;padding:13px 18px;font-size:.92rem}
-.equip-ajuda{grid-column:1/-1;background:var(--preto);color:#d9d6d4;border-radius:var(--raio);padding:32px 36px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;position:relative;overflow:hidden}
-.equip-ajuda::after{content:"";position:absolute;left:-46px;top:-46px;width:80px;height:80px;background:var(--vermelho);transform:rotate(45deg)}
-.equip-ajuda>*{position:relative;z-index:1}
-.equip-ajuda .btn{padding:15px 26px}
-.equip-ajuda h3{color:var(--branco);font-size:1.3rem;margin-bottom:6px;}
-@media (max-width:620px){.equip-ajuda{padding:28px 22px}.equip-ajuda .btn{width:100%}}
+.equip-ajuda{grid-column:1/-1;background:var(--preto);color:#d9d6d4;border-radius:var(--raio);display:grid;grid-template-columns:1.25fr 1fr;min-height:300px;position:relative;overflow:hidden}
+.equip-ajuda::after{content:"";position:absolute;left:-46px;top:-46px;width:80px;height:80px;background:var(--vermelho);transform:rotate(45deg);z-index:2}
+.ajuda-texto{position:relative;z-index:1;padding:44px 48px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
+.ajuda-texto h3{color:var(--branco);font-size:1.6rem;margin-bottom:10px}
+.ajuda-texto p{max-width:440px;margin-bottom:24px}
+.ajuda-texto .btn{padding:15px 26px}
+.ajuda-foto{position:relative;margin:0}
+.ajuda-foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 18%}
+.ajuda-foto::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,var(--preto) 0%,rgba(16,16,16,0) 40%)}
+@media (max-width:620px){
+  .equip-ajuda{grid-template-columns:1fr;min-height:0}
+  .ajuda-foto{order:-1;height:240px}
+  .ajuda-foto img{object-position:center 12%}
+  .ajuda-foto::before{background:linear-gradient(0deg,var(--preto) 0%,rgba(16,16,16,0) 45%)}
+  .ajuda-texto{padding:4px 22px 28px}
+  .ajuda-texto h3{font-size:1.3rem}
+  .ajuda-texto .btn{width:100%}
+}
 
 /* Setores */
 .setores-secao{background:var(--areia)}
@@ -414,11 +426,14 @@ h2 em{font-style:normal;color:var(--vermelho);display:block}
           </div>
         </article>
         <div class="equip-ajuda">
-          <div>
+          <div class="ajuda-texto">
             <h3>Não sabe qual modelo escolher?</h3>
             <p>Nossa equipe comercial avalia a aplicação e indica o equipamento adequado.</p>
+            <button class="btn btn-primario" type="button" data-abrir-lead data-equipamento="Preciso de ajuda para escolher" data-origem="ajuda">Pedir indicação</button>
           </div>
-          <button class="btn btn-primario" type="button" data-abrir-lead data-equipamento="Preciso de ajuda para escolher" data-origem="ajuda">Pedir indicação</button>
+          <figure class="ajuda-foto">
+            <img src="assets/img/consultor.webp" alt="Consultor da ABC Empilhadeiras" loading="lazy" width="640" height="811">
+          </figure>
         </div>
       </div>
     </div>
